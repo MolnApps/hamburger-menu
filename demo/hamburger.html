@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.6.0/mootools.min.js"></script>
+    <script src="../src/HamburgerMenu.js"></script>
+    <script>
+        document.addEvent('domready', function() {
+            var menu = new HamburgerMenu;
+            menu.attach();
+        });
+    </script>
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/HamburgerMenu.css">
+</head>
+<body>
+    <a class="Menu__toggle" href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    <nav class="Menu__container">
+        <ul class="Menu Menu--active">
+            <li class="Menu__item Menu__item--current"><a href="#">Home</a></li>
+            <li class="Menu__item"><a href="#">My Work</a></li>
+            <li class="Menu__item"><a href="#">About Me</a></li>
+            <li class="Menu__item"><a href="#">Get in Touch</a></li>
+            <li class="Menu__item"><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
