@@ -1,0 +1,13 @@
+{
+    "name": "molnapps/hamburger-menu",
+    "description": "Simple Mootools Hamburger Menu controller",
+    "authors": [
+        {
+            "name": "MolnApps",
+            "email": "info@molnapps.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    }
+}
